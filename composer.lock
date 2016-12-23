@@ -4,9 +4,97 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "38a4a4c9a3489dc46b82e5fb05861e65",
-    "content-hash": "c81af6ee09e39dc872b167d3bd8b7335",
-    "packages": [],
+    "hash": "6b6b5268e708ce54b6a5334353925b15",
+    "content-hash": "99e12ea077ddbde21871f9678fd6b4cb",
+    "packages": [
+        {
+            "name": "dhii/data-key-value-aware-interface",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Dhii/data-key-value-aware-interface.git",
+                "reference": "d33ab79289415afe67ebf98005821459182bbf20"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Dhii/data-key-value-aware-interface/zipball/d33ab79289415afe67ebf98005821459182bbf20",
+                "reference": "d33ab79289415afe67ebf98005821459182bbf20",
+                "shasum": ""
+            },
+            "require-dev": {
+                "codeclimate/php-test-reporter": "dev-master",
+                "dhii/php-cs-fixer-config": "dev-php-5.3",
+                "phpunit/phpunit": "4.*",
+                "ptrofimov/xpmock": "^1.1"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Dhii\\Data\\": "src/"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Dhii Team",
+                    "email": "development@dhii.co"
+                }
+            ],
+            "description": "An interface for value objects",
+            "support": {
+                "source": "https://github.com/Dhii/data-key-value-aware-interface/tree/master",
+                "issues": "https://github.com/Dhii/data-key-value-aware-interface/issues"
+            },
+            "time": "2016-11-26 19:07:12"
+        },
+        {
+            "name": "dhii/evaluable-interface",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Dhii/evaluable-interface.git",
+                "reference": "796f6082346c32df3096872170490ac0fab0138a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Dhii/evaluable-interface/zipball/796f6082346c32df3096872170490ac0fab0138a",
+                "reference": "796f6082346c32df3096872170490ac0fab0138a",
+                "shasum": ""
+            },
+            "require": {
+                "dhii/data-key-value-aware-interface": "dev-master",
+                "php": "^5.3.9 | ^7.0"
+            },
+            "require-dev": {
+                "dhii/php-cs-fixer-config": "dev-php-5.3",
+                "phpunit/phpunit": "^4.8",
+                "ptrofimov/xpmock": "^1.1"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Dhii\\Evaluable\\": "src/"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Dhii",
+                    "email": "development@dhii.co"
+                }
+            ],
+            "description": "An interface for an object that can be evaluated.",
+            "support": {
+                "source": "https://github.com/Dhii/evaluable-interface/tree/master",
+                "issues": "https://github.com/Dhii/evaluable-interface/issues"
+            },
+            "time": "2016-12-23 14:41:14"
+        }
+    ],
     "packages-dev": [
         {
             "name": "dhii/php-cs-fixer-config",
@@ -1581,6 +1669,7 @@
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
+        "dhii/evaluable-interface": 20,
         "dhii/php-cs-fixer-config": 20
     },
     "prefer-stable": false,
