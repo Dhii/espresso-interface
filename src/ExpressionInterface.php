@@ -15,11 +15,4 @@ interface ExpressionInterface extends EvaluableInterface
      * @return EvaluableInterface[] An array of evaluable instances.
      */
     public function getTerms();
-
-    /**
-     * Gets whether or not the expression is negated.
-     *
-     * @return bool True if the expression is negated, false if not.
-     */
-    public function isNegated();
 }

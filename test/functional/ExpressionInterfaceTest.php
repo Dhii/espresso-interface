@@ -26,7 +26,6 @@ class ExpressionInterfaceTest extends \Xpmock\TestCase
     {
         $mock = $this->mock(static::TEST_SUBJECT_CLASSNAME)
             ->getTerms()
-            ->isNegated()
             ->evaluate()
             ->new();
 
