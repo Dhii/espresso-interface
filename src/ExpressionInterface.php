@@ -2,7 +2,7 @@
 
 namespace Dhii\Espresso;
 
-use \Dhii\Evaluable\EvaluableInterface;
+use Dhii\Evaluable\EvaluableInterface;
 
 /**
  * An expression is an evaluable construct that is made up of 1 or more evaluable terms.
