@@ -2,14 +2,16 @@
 
 namespace Dhii\Espresso\Test;
 
+use \Dhii\Espresso\ContextInterface;
+use \Xpmock\TestCase;
+
 /**
  * Tests {@see \Dhii\Espresso\ContextInterface}.
  *
  * @since [*next-version*]
  */
-class ContextInterfaceTest extends \Xpmock\TestCase
+class ContextInterfaceTest extends TestCase
 {
-
     /**
      * The name of the test subject.
      */
@@ -20,13 +22,12 @@ class ContextInterfaceTest extends \Xpmock\TestCase
      *
      * @since [*next-version*]
      *
-     * @return \Dhii\Espresso\ContextInterface
+     * @return ContextInterface
      */
     public function createInstance()
     {
         $mock = $this->mock(static::TEST_SUBJECT_CLASSNAME)
             ->getValue()
-            ->hasValue()
             ->new();
 
         return $mock;
@@ -45,5 +46,4 @@ class ContextInterfaceTest extends \Xpmock\TestCase
 
         $this->assertInstanceOf(static::TEST_SUBJECT_CLASSNAME, $subject);
     }
-
 }
