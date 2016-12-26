@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "6b6b5268e708ce54b6a5334353925b15",
+    "hash": "21e4b54e8906bdbfcddd8243be8c2c69",
     "content-hash": "99e12ea077ddbde21871f9678fd6b4cb",
     "packages": [
         {
@@ -55,12 +55,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Dhii/evaluable-interface.git",
-                "reference": "796f6082346c32df3096872170490ac0fab0138a"
+                "reference": "cd6b5693b8a1c74789a32633f5caa273e31e71a8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Dhii/evaluable-interface/zipball/796f6082346c32df3096872170490ac0fab0138a",
-                "reference": "796f6082346c32df3096872170490ac0fab0138a",
+                "url": "https://api.github.com/repos/Dhii/evaluable-interface/zipball/cd6b5693b8a1c74789a32633f5caa273e31e71a8",
+                "reference": "cd6b5693b8a1c74789a32633f5caa273e31e71a8",
                 "shasum": ""
             },
             "require": {
@@ -92,7 +92,7 @@
                 "source": "https://github.com/Dhii/evaluable-interface/tree/master",
                 "issues": "https://github.com/Dhii/evaluable-interface/issues"
             },
-            "time": "2016-12-23 14:41:14"
+            "time": "2016-12-26 11:39:26"
         }
     ],
     "packages-dev": [
@@ -1189,12 +1189,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/console.git",
-                "reference": "de0a69cc9f3f8654e6b5d370e66ae8f2c81fd954"
+                "reference": "9851237ca5044e3aad65960eefc4d29c32e0bf6c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/console/zipball/de0a69cc9f3f8654e6b5d370e66ae8f2c81fd954",
-                "reference": "de0a69cc9f3f8654e6b5d370e66ae8f2c81fd954",
+                "url": "https://api.github.com/repos/symfony/console/zipball/9851237ca5044e3aad65960eefc4d29c32e0bf6c",
+                "reference": "9851237ca5044e3aad65960eefc4d29c32e0bf6c",
                 "shasum": ""
             },
             "require": {
@@ -1242,7 +1242,7 @@
             ],
             "description": "Symfony Console Component",
             "homepage": "https://symfony.com",
-            "time": "2016-12-19 15:38:44"
+            "time": "2016-12-23 16:32:24"
         },
         {
             "name": "symfony/debug",
