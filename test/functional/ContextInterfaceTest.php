@@ -26,6 +26,7 @@ class ContextInterfaceTest extends \Xpmock\TestCase
     {
         $mock = $this->mock(static::TEST_SUBJECT_CLASSNAME)
             ->getValue()
+            ->hasValue()
             ->new();
 
         return $mock;
