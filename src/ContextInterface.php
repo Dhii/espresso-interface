@@ -12,7 +12,9 @@ interface ContextInterface
     /**
      * Gets the context-specific value.
      *
+     * @param string $key [optional] A string key - used if the context contains multiple values. Default: null
+     *
      * @return mixed The contextual value.
      */
-    public function getValue();
+    public function getValue($key = null);
 }
