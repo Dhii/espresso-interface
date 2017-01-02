@@ -16,7 +16,7 @@ interface CompositeContextInterface extends ContextInterface
      *
      * @return mixed The contextual value.
      */
-    public function getValue($key = null);
+    public function getValueOf($key = null);
 
     /**
      * Checks if the context has a value with a specific key.
