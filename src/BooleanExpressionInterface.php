@@ -4,7 +4,7 @@ namespace Dhii\Espresso;
 
 /**
  * A Boolean expression is an expression that evaluates to either true or false.
-*
+ *
  * @since [*next-version*]
  */
 interface BooleanExpressionInterface extends ExpressionInterface
