@@ -12,11 +12,13 @@ interface CompositeContextInterface extends ContextInterface
     /**
      * Gets the context-specific value or a sub-value.
      *
-     * @param string $key [optional] A string key - used if the context contains multiple values. Default: null
+     * @since [*next-version*]
      *
-     * @return mixed The contextual value.
+     * @param string $key The string key of the value to retrieve.
+     *
+     * @return mixed The contextual value associated with the given key.
      */
-    public function getValueOf($key = null);
+    public function getValueOf($key);
 
     /**
      * Checks if the context has a value with a specific key.
