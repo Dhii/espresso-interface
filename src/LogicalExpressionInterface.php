@@ -3,11 +3,11 @@
 namespace Dhii\Espresso;
 
 /**
- * A Boolean expression is an expression that evaluates to either true or false.
+ * A logical expression is an expression that evaluates to either true or false.
  *
  * @since [*next-version*]
  */
-interface BooleanExpressionInterface extends ExpressionInterface
+interface LogicalExpressionInterface extends ExpressionInterface
 {
     /**
      * Gets whether or not the expression is negated.
