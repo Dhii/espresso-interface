@@ -14,6 +14,8 @@ interface ExpressionInterface extends EvaluableInterface
     /**
      * Gets the expression terms.
      *
+     * @since [*next-version*]
+     *
      * @return EvaluableInterface[] An array of evaluable instances.
      */
     public function getTerms();

@@ -12,6 +12,8 @@ interface ContextInterface
     /**
      * Gets the context-specific value.
      *
+     * @since [*next-version*]
+     *
      * @return mixed The contextual value.
      */
     public function getValue();

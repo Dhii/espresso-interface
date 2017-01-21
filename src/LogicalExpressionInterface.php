@@ -12,6 +12,8 @@ interface LogicalExpressionInterface extends ExpressionInterface
     /**
      * Gets whether or not the expression is negated.
      *
+     * @since [*next-version*]
+     *
      * @return bool True if the expression is negated, false if not.
      */
     public function isNegated();

@@ -14,6 +14,8 @@ class ContextInterfaceTest extends TestCase
 {
     /**
      * The name of the test subject.
+     *
+     * @since [*next-version*]
      */
     const TEST_SUBJECT_CLASSNAME = '\\Dhii\\Espresso\\ContextInterface';
 

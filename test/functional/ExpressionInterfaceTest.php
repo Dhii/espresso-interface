@@ -12,6 +12,8 @@ class ExpressionInterfaceTest extends \Xpmock\TestCase
 
     /**
      * The name of the test subject.
+     *
+     * @since [*next-version*]
      */
     const TEST_SUBJECT_CLASSNAME = '\\Dhii\\Espresso\\ExpressionInterface';
 
