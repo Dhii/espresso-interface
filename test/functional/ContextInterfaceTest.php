@@ -8,21 +8,21 @@ use \Xpmock\TestCase;
 /**
  * Tests {@see \Dhii\Espresso\ContextInterface}.
  *
- * @since [*next-version*]
+ * @since 0.1
  */
 class ContextInterfaceTest extends TestCase
 {
     /**
      * The name of the test subject.
      *
-     * @since [*next-version*]
+     * @since 0.1
      */
     const TEST_SUBJECT_CLASSNAME = '\\Dhii\\Espresso\\ContextInterface';
 
     /**
      * Creates a new instance of the test subject.
      *
-     * @since [*next-version*]
+     * @since 0.1
      *
      * @return ContextInterface
      */
@@ -40,7 +40,7 @@ class ContextInterfaceTest extends TestCase
      *
      * @covers \Dhii\Espresso\ContextInterface
      *
-     * @since [*next-version*]
+     * @since 0.1
      */
     public function testCanBeCreated()
     {
