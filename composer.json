@@ -1,6 +1,6 @@
 {
     "name": "dhii/espresso-interface",
-    "description": "The interfaces for Espresso.",
+    "description": "The interfaces for Espresso: a PHP expression builder and evaluation library.",
     "type": "library",
     "license": "MIT",
     "authors": [
