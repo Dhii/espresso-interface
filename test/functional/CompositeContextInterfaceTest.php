@@ -29,6 +29,7 @@ class CompositeContextInterfaceTest extends TestCase
         $mock = $this->mock(static::TEST_SUBJECT_CLASSNAME)
             ->getValue()
             ->hasValue()
+            ->getValueOf()
             ->new();
 
         return $mock;
