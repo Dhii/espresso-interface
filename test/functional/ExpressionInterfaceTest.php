@@ -46,6 +46,7 @@ class ExpressionInterfaceTest extends \Xpmock\TestCase
         $subject = $this->createInstance();
 
         $this->assertInstanceOf(static::TEST_SUBJECT_CLASSNAME, $subject);
+        $this->assertInstanceOf('Dhii\\Evaluable\\EvaluableInterface', $subject);
     }
 
 }
