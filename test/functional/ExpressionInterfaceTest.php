@@ -1,6 +1,6 @@
 <?php
 
-namespace Dhii\Espresso\Test;
+namespace Dhii\Expression\Test;
 
 /**
  * Tests {@see \Dhii\ExpressionInterface}.
@@ -15,14 +15,14 @@ class ExpressionInterfaceTest extends \Xpmock\TestCase
      *
      * @since 0.1
      */
-    const TEST_SUBJECT_CLASSNAME = '\\Dhii\\Espresso\\ExpressionInterface';
+    const TEST_SUBJECT_CLASSNAME = '\\Dhii\\Expression\\ExpressionInterface';
 
     /**
      * Creates a new instance of the test subject.
      *
      * @since 0.1
      *
-     * @return \Dhii\Espresso\ExpressionInterface
+     * @return \Dhii\Expression\ExpressionInterface
      */
     public function createInstance()
     {
@@ -37,7 +37,7 @@ class ExpressionInterfaceTest extends \Xpmock\TestCase
     /**
      * Tests whether a valid instance of the test subject can be created.
      *
-     * @covers \Dhii\Espresso\ExpressionInterface
+     * @covers \Dhii\Expression\ExpressionInterface
      *
      * @since 0.1
      */

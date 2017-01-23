@@ -1,12 +1,12 @@
 <?php
 
-namespace Dhii\Espresso\Test;
+namespace Dhii\Expression\Test;
 
-use \Dhii\Espresso\CompositeContextInterface;
+use \Dhii\Expression\CompositeContextInterface;
 use \Xpmock\TestCase;
 
 /**
- * Tests {@see \Dhii\Espresso\CompositeContextInterface}.
+ * Tests {@see \Dhii\Expression\CompositeContextInterface}.
  *
  * @since 0.1
  */
@@ -17,7 +17,7 @@ class CompositeContextInterfaceTest extends TestCase
      *
      * @since 0.1
      */
-    const TEST_SUBJECT_CLASSNAME = '\\Dhii\\Espresso\\CompositeContextInterface';
+    const TEST_SUBJECT_CLASSNAME = '\\Dhii\\Expression\\CompositeContextInterface';
 
     /**
      * Creates a new instance of the test subject.
@@ -40,7 +40,7 @@ class CompositeContextInterfaceTest extends TestCase
     /**
      * Tests whether a valid instance of the test subject can be created.
      *
-     * @covers \Dhii\Espresso\CompositeContextInterface
+     * @covers \Dhii\Expression\CompositeContextInterface
      *
      * @since 0.1
      */
@@ -49,6 +49,6 @@ class CompositeContextInterfaceTest extends TestCase
         $subject = $this->createInstance();
 
         $this->assertInstanceOf(static::TEST_SUBJECT_CLASSNAME, $subject);
-        $this->assertInstanceOf('Dhii\\Espresso\\ContextInterface', $subject);
+        $this->assertInstanceOf('Dhii\\Expression\\ContextInterface', $subject);
     }
 }

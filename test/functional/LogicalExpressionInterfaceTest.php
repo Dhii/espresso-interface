@@ -1,9 +1,9 @@
 <?php
 
-namespace Dhii\Espresso\Test;
+namespace Dhii\Expression\Test;
 
 /**
- * Tests {@see \Dhii\Espresso\LogicalExpressionInterface}.
+ * Tests {@see \Dhii\Expression\LogicalExpressionInterface}.
  *
  * @since [*next-version*]
  */
@@ -15,14 +15,14 @@ class LogicalExpressionInterfaceTest extends \Xpmock\TestCase
      *
      * @since 0.1
      */
-    const TEST_SUBJECT_CLASSNAME = 'Dhii\\Espresso\\LogicalExpressionInterface';
+    const TEST_SUBJECT_CLASSNAME = 'Dhii\\Expression\\LogicalExpressionInterface';
 
     /**
      * Creates a new instance of the test subject.
      *
      * @since 0.1
      *
-     * @return \Dhii\Espresso\LogicalExpressionInterface
+     * @return \Dhii\Expression\LogicalExpressionInterface
      */
     public function createInstance()
     {
@@ -45,7 +45,7 @@ class LogicalExpressionInterfaceTest extends \Xpmock\TestCase
         $subject = $this->createInstance();
 
         $this->assertInstanceOf(static::TEST_SUBJECT_CLASSNAME, $subject);
-        $this->assertInstanceOf('Dhii\\Espresso\\ExpressionInterface', $subject);
+        $this->assertInstanceOf('Dhii\\Expression\\ExpressionInterface', $subject);
         $this->assertInstanceOf('Dhii\\Evaluable\\EvaluableInterface', $subject);
     }
 

@@ -1,12 +1,12 @@
 <?php
 
-namespace Dhii\Espresso\Test;
+namespace Dhii\Expression\Test;
 
-use \Dhii\Espresso\ContextInterface;
+use \Dhii\Expression\ContextInterface;
 use \Xpmock\TestCase;
 
 /**
- * Tests {@see \Dhii\Espresso\ContextInterface}.
+ * Tests {@see \Dhii\Expression\ContextInterface}.
  *
  * @since 0.1
  */
@@ -17,7 +17,7 @@ class ContextInterfaceTest extends TestCase
      *
      * @since 0.1
      */
-    const TEST_SUBJECT_CLASSNAME = '\\Dhii\\Espresso\\ContextInterface';
+    const TEST_SUBJECT_CLASSNAME = '\\Dhii\\Expression\\ContextInterface';
 
     /**
      * Creates a new instance of the test subject.
@@ -38,7 +38,7 @@ class ContextInterfaceTest extends TestCase
     /**
      * Tests whether a valid instance of the test subject can be created.
      *
-     * @covers \Dhii\Espresso\ContextInterface
+     * @covers \Dhii\Expression\ContextInterface
      *
      * @since 0.1
      */

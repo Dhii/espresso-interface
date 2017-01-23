@@ -1,6 +1,6 @@
 <?php
 
-namespace Dhii\Espresso;
+namespace Dhii\Expression;
 
 /**
  * A logical expression is an expression that evaluates to either true or false.

@@ -1,6 +1,6 @@
 <?php
 
-namespace Dhii\Espresso;
+namespace Dhii\Expression;
 
 use Dhii\Data\ValueAwareInterface;
 
@@ -11,12 +11,4 @@ use Dhii\Data\ValueAwareInterface;
  */
 interface ContextInterface extends ValueAwareInterface
 {
-    /**
-     * Gets the context-specific value.
-     *
-     * @since 0.1
-     *
-     * @return mixed The contextual value.
-     */
-    public function getValue();
 }
