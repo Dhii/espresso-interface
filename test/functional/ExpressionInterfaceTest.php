@@ -1,13 +1,14 @@
 <?php
 
 namespace Dhii\Expression\Test;
+use Xpmock\TestCase;
 
 /**
  * Tests {@see \Dhii\ExpressionInterface}.
  *
  * @since 0.1
  */
-class ExpressionInterfaceTest extends \Xpmock\TestCase
+class ExpressionInterfaceTest extends TestCase
 {
 
     /**
@@ -36,8 +37,6 @@ class ExpressionInterfaceTest extends \Xpmock\TestCase
 
     /**
      * Tests whether a valid instance of the test subject can be created.
-     *
-     * @covers \Dhii\Expression\ExpressionInterface
      *
      * @since 0.1
      */

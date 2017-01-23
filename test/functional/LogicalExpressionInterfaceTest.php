@@ -1,13 +1,14 @@
 <?php
 
 namespace Dhii\Expression\Test;
+use Xpmock\TestCase;
 
 /**
  * Tests {@see \Dhii\Expression\LogicalExpressionInterface}.
  *
- * @since [*next-version*]
+ * @since 0.1
  */
-class LogicalExpressionInterfaceTest extends \Xpmock\TestCase
+class LogicalExpressionInterfaceTest extends TestCase
 {
 
     /**
