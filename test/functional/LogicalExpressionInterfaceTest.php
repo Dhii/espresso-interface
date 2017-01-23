@@ -5,7 +5,7 @@ namespace Dhii\Expression\Test;
 /**
  * Tests {@see \Dhii\Expression\LogicalExpressionInterface}.
  *
- * @since [*next-version*]
+ * @since 0.1
  */
 class LogicalExpressionInterfaceTest extends \Xpmock\TestCase
 {

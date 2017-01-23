@@ -37,8 +37,6 @@ class ExpressionInterfaceTest extends \Xpmock\TestCase
     /**
      * Tests whether a valid instance of the test subject can be created.
      *
-     * @covers \Dhii\Expression\ExpressionInterface
-     *
      * @since 0.1
      */
     public function testCanBeCreated()

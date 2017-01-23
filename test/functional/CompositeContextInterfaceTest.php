@@ -2,8 +2,8 @@
 
 namespace Dhii\Expression\Test;
 
-use \Dhii\Expression\CompositeContextInterface;
-use \Xpmock\TestCase;
+use Dhii\Expression\CompositeContextInterface;
+use Xpmock\TestCase;
 
 /**
  * Tests {@see \Dhii\Expression\CompositeContextInterface}.
@@ -39,8 +39,6 @@ class CompositeContextInterfaceTest extends TestCase
 
     /**
      * Tests whether a valid instance of the test subject can be created.
-     *
-     * @covers \Dhii\Expression\CompositeContextInterface
      *
      * @since 0.1
      */
