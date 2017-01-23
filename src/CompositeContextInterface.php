@@ -1,6 +1,6 @@
 <?php
 
-namespace Dhii\Espresso;
+namespace Dhii\Expression;
 
 /**
  * A context with multiple values.
