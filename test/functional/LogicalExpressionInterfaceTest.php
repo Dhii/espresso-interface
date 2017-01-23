@@ -3,11 +3,11 @@
 namespace Dhii\Espresso\Test;
 
 /**
- * Tests {@see \Dhii\ExpressionInterface}.
+ * Tests {@see \Dhii\Espresso\LogicalExpressionInterface}.
  *
- * @since 0.1
+ * @since [*next-version*]
  */
-class ExpressionInterfaceTest extends \Xpmock\TestCase
+class LogicalExpressionInterfaceTest extends \Xpmock\TestCase
 {
 
     /**
@@ -15,20 +15,21 @@ class ExpressionInterfaceTest extends \Xpmock\TestCase
      *
      * @since 0.1
      */
-    const TEST_SUBJECT_CLASSNAME = '\\Dhii\\Espresso\\ExpressionInterface';
+    const TEST_SUBJECT_CLASSNAME = 'Dhii\\Espresso\\LogicalExpressionInterface';
 
     /**
      * Creates a new instance of the test subject.
      *
      * @since 0.1
      *
-     * @return \Dhii\Espresso\ExpressionInterface
+     * @return \Dhii\Espresso\LogicalExpressionInterface
      */
     public function createInstance()
     {
         $mock = $this->mock(static::TEST_SUBJECT_CLASSNAME)
             ->getTerms()
             ->evaluate()
+            ->isNegated()
             ->new();
 
         return $mock;
@@ -37,8 +38,6 @@ class ExpressionInterfaceTest extends \Xpmock\TestCase
     /**
      * Tests whether a valid instance of the test subject can be created.
      *
-     * @covers \Dhii\Espresso\ExpressionInterface
-     *
      * @since 0.1
      */
     public function testCanBeCreated()
@@ -46,6 +45,7 @@ class ExpressionInterfaceTest extends \Xpmock\TestCase
         $subject = $this->createInstance();
 
         $this->assertInstanceOf(static::TEST_SUBJECT_CLASSNAME, $subject);
+        $this->assertInstanceOf('Dhii\\Espresso\\ExpressionInterface', $subject);
         $this->assertInstanceOf('Dhii\\Evaluable\\EvaluableInterface', $subject);
     }
 

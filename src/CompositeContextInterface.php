@@ -5,14 +5,14 @@ namespace Dhii\Espresso;
 /**
  * A context with multiple values.
  *
- * @since [*next-version*]
+ * @since 0.1
  */
 interface CompositeContextInterface extends ContextInterface
 {
     /**
      * Gets the context-specific value or a sub-value.
      *
-     * @since [*next-version*]
+     * @since 0.1
      *
      * @param string $key The string key of the value to retrieve.
      *
@@ -23,7 +23,7 @@ interface CompositeContextInterface extends ContextInterface
     /**
      * Checks if the context has a value with a specific key.
      *
-     * @since [*next-version*]
+     * @since 0.1
      *
      * @param string $key The key of the value to check for.
      *
