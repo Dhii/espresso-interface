@@ -1,5 +1,5 @@
 {
-    "name": "dhii/espresso-interface",
+    "name": "dhii/expression-interface",
     "description": "Interoperable interfaces for representing expressions.",
     "type": "library",
     "license": "MIT",
