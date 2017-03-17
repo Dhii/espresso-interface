@@ -31,6 +31,7 @@ class LogicalExpressionInterfaceTest extends TestCase
             ->getTerms()
             ->evaluate()
             ->isNegated()
+            ->__toString()
             ->new();
 
         return $mock;
@@ -48,6 +49,7 @@ class LogicalExpressionInterfaceTest extends TestCase
         $this->assertInstanceOf(static::TEST_SUBJECT_CLASSNAME, $subject);
         $this->assertInstanceOf('Dhii\\Expression\\ExpressionInterface', $subject);
         $this->assertInstanceOf('Dhii\\Evaluable\\EvaluableInterface', $subject);
+        $this->assertInstanceOf('Dhii\\Util\\String\\StringableInterface', $subject);
     }
 
 }
