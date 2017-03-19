@@ -30,6 +30,7 @@ class ExpressionInterfaceTest extends TestCase
         $mock = $this->mock(static::TEST_SUBJECT_CLASSNAME)
             ->getTerms()
             ->evaluate()
+            ->__toString()
             ->new();
 
         return $mock;
@@ -46,6 +47,7 @@ class ExpressionInterfaceTest extends TestCase
 
         $this->assertInstanceOf(static::TEST_SUBJECT_CLASSNAME, $subject);
         $this->assertInstanceOf('Dhii\\Evaluable\\EvaluableInterface', $subject);
+        $this->assertInstanceOf('Dhii\\Util\\String\\StringableInterface', $subject);
     }
 
 }
