@@ -28,6 +28,7 @@ class LogicalExpressionInterfaceTest extends TestCase
     public function createInstance()
     {
         $mock = $this->mock(static::TEST_SUBJECT_CLASSNAME)
+            ->getType()
             ->getTerms()
             ->isNegated()
             ->new();
