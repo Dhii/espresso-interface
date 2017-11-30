@@ -2,21 +2,21 @@
 
 namespace Dhii\Expression;
 
-use Dhii\Evaluable\EvaluableInterface;
+use Traversable;
 
 /**
- * An expression is an evaluable construct that is made up of 1 or more evaluable terms.
+ * Something that represents an expression.
  *
  * @since 0.1
  */
 interface ExpressionInterface
 {
     /**
-     * Gets the expression terms.
+     * Retrieves the terms for this expression.
      *
      * @since 0.1
      *
-     * @return EvaluableInterface[] An array of evaluable instances.
+     * @return ExpressionInterface[]|Traversable A list of expressions.
      */
     public function getTerms();
 }
