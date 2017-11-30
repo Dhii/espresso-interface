@@ -3,14 +3,14 @@
 namespace Dhii\Expression;
 
 /**
- * A logical expression is an expression that evaluates to either true or false.
+ * Something that represents a logical expression.
  *
  * @since 0.1
  */
 interface LogicalExpressionInterface extends ExpressionInterface
 {
     /**
-     * Gets whether or not the expression is negated.
+     * Retrieves whether the expression is negated.
      *
      * @since 0.1
      *
