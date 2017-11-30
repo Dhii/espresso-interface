@@ -9,7 +9,7 @@ use Dhii\Evaluable\EvaluableInterface;
  *
  * @since 0.1
  */
-interface ExpressionInterface extends EvaluableInterface
+interface ExpressionInterface
 {
     /**
      * Gets the expression terms.
