@@ -1,16 +1,17 @@
 <?php
 
 namespace Dhii\Expression\Test;
+
+use Dhii\Expression\ExpressionInterface;
 use Xpmock\TestCase;
 
 /**
- * Tests {@see \Dhii\ExpressionInterface}.
+ * Tests {@see ExpressionInterface}.
  *
  * @since 0.1
  */
 class ExpressionInterfaceTest extends TestCase
 {
-
     /**
      * The name of the test subject.
      *
@@ -23,7 +24,7 @@ class ExpressionInterfaceTest extends TestCase
      *
      * @since 0.1
      *
-     * @return \Dhii\Expression\ExpressionInterface
+     * @return ExpressionInterface
      */
     public function createInstance()
     {
@@ -44,7 +45,10 @@ class ExpressionInterfaceTest extends TestCase
     {
         $subject = $this->createInstance();
 
-        $this->assertInstanceOf(static::TEST_SUBJECT_CLASSNAME, $subject);
+        $this->assertInstanceOf(
+            static::TEST_SUBJECT_CLASSNAME,
+            $subject,
+            'A valid instance of the test subject could not be created.'
+        );
     }
-
 }
