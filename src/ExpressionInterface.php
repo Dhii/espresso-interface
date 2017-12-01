@@ -26,7 +26,7 @@ interface ExpressionInterface
      *
      * @since 0.1
      *
-     * @return ExpressionInterface[]|Traversable A list of expressions.
+     * @return string[]|Stringable[]|ExpressionInterface[]|Traversable A list of term strings or sub-expressions.
      */
     public function getTerms();
 }
