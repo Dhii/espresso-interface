@@ -1,6 +1,6 @@
 <?php
 
-namespace Dhii\Expression\Test;
+namespace Dhii\Expression\FuncTest;
 
 use Dhii\Expression\ExpressionInterface;
 use Xpmock\TestCase;
