@@ -50,5 +50,11 @@ class ExpressionInterfaceTest extends TestCase
             $subject,
             'A valid instance of the test subject could not be created.'
         );
+
+        $this->assertInstanceOf(
+            'Dhii\Expression\TermInterface',
+            $subject,
+            'Test subject does not implement expected interface.'
+        );
     }
 }

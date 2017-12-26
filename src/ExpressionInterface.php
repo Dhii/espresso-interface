@@ -2,7 +2,6 @@
 
 namespace Dhii\Expression;
 
-use Dhii\Util\String\StringableInterface as Stringable;
 use Traversable;
 
 /**
@@ -10,17 +9,8 @@ use Traversable;
  *
  * @since 0.1
  */
-interface ExpressionInterface
+interface ExpressionInterface extends TermInterface
 {
-    /**
-     * Retrieves the expression type.
-     *
-     * @since [*next-version*]
-     *
-     * @return string|Stringable The expression type code.
-     */
-    public function getType();
-
     /**
      * Retrieves the terms for this expression.
      *
