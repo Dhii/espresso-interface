@@ -16,7 +16,7 @@ interface ExpressionInterface extends TermInterface
      *
      * @since 0.1
      *
-     * @return string[]|Stringable[]|ExpressionInterface[]|Traversable A list of term strings or sub-expressions.
+     * @return TermInterface[]|Traversable A list of term instances.
      */
     public function getTerms();
 }
