@@ -14,117 +14,117 @@ interface ArithmeticTypeInterface extends TermTypeInterface
      *
      * @since [*next-version*]
      */
-    const TYPE_ADDITION = 'addition';
+    const T_ADDITION = 'addition';
 
     /**
      * Type constant for expressions and terms that represent subtract.
      *
      * @since [*next-version*]
      */
-    const TYPE_SUBTRACTION = 'subtract';
+    const T_SUBTRACTION = 'subtract';
 
     /**
      * Type constant for expressions and terms that represent multiplication.
      *
      * @since [*next-version*]
      */
-    const TYPE_MULTIPLICATION = 'multiplication';
+    const T_MULTIPLICATION = 'multiplication';
 
     /**
      * Type constant for expressions and terms that represent division.
      *
      * @since [*next-version*]
      */
-    const TYPE_DIVISION = 'division';
+    const T_DIVISION = 'division';
 
     /**
      * Type constant for expressions and terms that represent modulo.
      *
      * @since [*next-version*]
      */
-    const TYPE_MODULO = 'modulo';
+    const T_MODULO = 'modulo';
 
     /**
      * Type constant for expressions and terms that represent percentage.
      *
      * @since [*next-version*]
      */
-    const TYPE_PERCENTAGE = 'percentage';
+    const T_PERCENTAGE = 'percentage';
 
     /**
      * Type constant for expressions and terms that represent absolute.
      *
      * @since [*next-version*]
      */
-    const TYPE_ABSOLUTE = 'absolute';
+    const T_ABSOLUTE = 'absolute';
 
     /**
      * Type constant for expressions and terms that represent ceiling.
      *
      * @since [*next-version*]
      */
-    const TYPE_CEILING = 'ceiling';
+    const T_CEILING = 'ceiling';
 
     /**
      * Type constant for expressions and terms that represent floor.
      *
      * @since [*next-version*]
      */
-    const TYPE_FLOOR = 'floor';
+    const T_FLOOR = 'floor';
 
     /**
      * Type constant for expressions and terms that represent round.
      *
      * @since [*next-version*]
      */
-    const TYPE_ROUND = 'round';
+    const T_ROUND = 'round';
 
     /**
      * Type constant for expressions and terms that represent power.
      *
      * @since [*next-version*]
      */
-    const TYPE_POWER = 'power';
+    const T_POWER = 'power';
 
     /**
      * Type constant for expressions and terms that represent logarithm.
      *
      * @since [*next-version*]
      */
-    const TYPE_LOGARITHM = 'logarithm';
+    const T_LOGARITHM = 'logarithm';
 
     /**
      * Type constant for expressions and terms that represent factorial.
      *
      * @since [*next-version*]
      */
-    const TYPE_FACTORIAL = 'factorial';
+    const T_FACTORIAL = 'factorial';
 
     /**
      * Type constant for expressions and terms that represent derivative.
      *
      * @since [*next-version*]
      */
-    const TYPE_DERIVATIVE = 'derivative';
+    const T_DERIVATIVE = 'derivative';
 
     /**
      * Type constant for expressions and terms that represent integral.
      *
      * @since [*next-version*]
      */
-    const TYPE_INTEGRAL = 'integral';
+    const T_INTEGRAL = 'integral';
 
     /**
      * Type constant for expressions and terms that represent bitwise "and".
      *
      * @since [*next-version*]
      */
-    const TYPE_BITWISE_AND = 'bitwise_and';
+    const T_BITWISE_AND = 'bitwise_and';
 
     /**
      * Type constant for expressions and terms that represent bitwise "or".
      *
      * @since [*next-version*]
      */
-    const TYPE_BITWISE_OR = 'bitwise_or';
+    const T_BITWISE_OR = 'bitwise_or';
 }

@@ -14,12 +14,12 @@ interface BooleanTypeInterface extends TermTypeInterface
      *
      * @since [*next-version*]
      */
-    const TYPE_AND = 'and';
+    const T_AND = 'and';
 
     /**
      * Type constant for expressions that represent a boolean "or".
      *
      * @since [*next-version*]
      */
-    const TYPE_OR = 'or';
+    const T_OR = 'or';
 }
