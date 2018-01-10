@@ -3,11 +3,11 @@
 namespace Dhii\Expression\Type;
 
 /**
- * Arithmetic expression and term types.
+ * Something that represents an arithmetic term type.
  *
  * @since [*next-version*]
  */
-interface ArithmeticTypeInterface
+interface ArithmeticTypeInterface extends TermTypeInterface
 {
     /**
      * Type constant for expressions and terms that represent addition.

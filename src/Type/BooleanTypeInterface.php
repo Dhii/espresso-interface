@@ -3,11 +3,11 @@
 namespace Dhii\Expression\Type;
 
 /**
- * Boolean expression and term types.
+ * Something that represents a boolean term type.
  *
  * @since [*next-version*]
  */
-interface BooleanTypeInterface
+interface BooleanTypeInterface extends TermTypeInterface
 {
     /**
      * Type constant for expressions that represent a boolean "and".

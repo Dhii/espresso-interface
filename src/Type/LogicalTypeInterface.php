@@ -3,7 +3,7 @@
 namespace Dhii\Expression\Type;
 
 /**
- * Logical types for expressions and terms.
+ * Something that represents a logical term type.
  *
  * @since [*next-version*]
  */

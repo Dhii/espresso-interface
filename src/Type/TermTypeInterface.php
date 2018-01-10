@@ -2,15 +2,14 @@
 
 namespace Dhii\Expression\Type;
 
-use Dhii\Expression\LogicalExpressionInterface;
+use Dhii\Type\KeyAwareTypeInterface;
+use Dhii\Util\String\StringableInterface as Stringable;
 
 /**
- * All types for expressions and terms.
+ * Something that represents a term type.
  *
  * @since [*next-version*]
  */
-interface TermTypeInterface extends
-    ArithmeticTypeInterface,
-    LogicalExpressionInterface
+interface TermTypeInterface extends KeyAwareTypeInterface, Stringable
 {
 }

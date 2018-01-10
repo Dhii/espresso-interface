@@ -3,11 +3,11 @@
 namespace Dhii\Expression\Type;
 
 /**
- * Relational expression and term types.
+ * Something that represents a relational term type.
  *
  * @since [*next-version*]
  */
-interface RelationalTypeInterface
+interface RelationalTypeInterface extends TermTypeInterface
 {
     /**
      * Type constant for expressions and terms that represent an "equivalence" relation.
