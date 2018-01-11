@@ -1,36 +1,37 @@
 <?php
 
-namespace Dhii\Expression\FuncTest;
+namespace Dhii\Expression\UnitTest;
 
-use Dhii\Expression\ExpressionInterface;
+use Dhii\Expression\LogicalExpressionInterface;
 use Xpmock\TestCase;
 
 /**
- * Tests {@see ExpressionInterface}.
+ * Tests {@see LogicalExpressionInterface}.
  *
  * @since 0.1
  */
-class ExpressionInterfaceTest extends TestCase
+class LogicalExpressionInterfaceTest extends TestCase
 {
     /**
      * The name of the test subject.
      *
      * @since 0.1
      */
-    const TEST_SUBJECT_CLASSNAME = '\\Dhii\\Expression\\ExpressionInterface';
+    const TEST_SUBJECT_CLASSNAME = 'Dhii\\Expression\\LogicalExpressionInterface';
 
     /**
      * Creates a new instance of the test subject.
      *
      * @since 0.1
      *
-     * @return ExpressionInterface
+     * @return LogicalExpressionInterface
      */
     public function createInstance()
     {
         $mock = $this->mock(static::TEST_SUBJECT_CLASSNAME)
             ->getType()
             ->getTerms()
+            ->isNegated()
             ->new();
 
         return $mock;
@@ -52,7 +53,7 @@ class ExpressionInterfaceTest extends TestCase
         );
 
         $this->assertInstanceOf(
-            'Dhii\Expression\TermInterface',
+            'Dhii\\Expression\\ExpressionInterface',
             $subject,
             'Test subject does not implement expected interface.'
         );
