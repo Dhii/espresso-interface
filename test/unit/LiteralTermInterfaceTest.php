@@ -1,23 +1,23 @@
 <?php
 
-namespace Dhii\Expression\FuncTest;
+namespace Dhii\Expression\UnitTest;
 
 use Xpmock\TestCase;
-use Dhii\Expression\TermInterface as TestSubject;
+use Dhii\Expression\LiteralTermInterface as TestSubject;
 
 /**
  * Tests {@see TestSubject}.
  *
  * @since [*next-version*]
  */
-class TermInterfaceTest extends TestCase
+class LiteralTermInterfaceTest extends TestCase
 {
     /**
      * The class name of the test subject.
      *
      * @since [*next-version*]
      */
-    const TEST_SUBJECT_CLASSNAME = 'Dhii\Expression\TermInterface';
+    const TEST_SUBJECT_CLASSNAME = 'Dhii\Expression\LiteralTermInterface';
 
     /**
      * Creates a new instance of the test subject.
@@ -29,7 +29,8 @@ class TermInterfaceTest extends TestCase
     public function createInstance()
     {
         $mock = $this->mock(static::TEST_SUBJECT_CLASSNAME)
-                     ->getType();
+                     ->getType()
+                     ->getValue();
 
         return $mock->new();
     }
@@ -45,6 +46,12 @@ class TermInterfaceTest extends TestCase
 
         $this->assertInstanceOf(
             static::TEST_SUBJECT_CLASSNAME,
+            $subject,
+            'A valid instance of the test subject could not be created.'
+        );
+
+        $this->assertInstanceOf(
+            'Dhii\Expression\TermInterface',
             $subject,
             'A valid instance of the test subject could not be created.'
         );
